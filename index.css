@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    border-radius: 35px;
+    width: 50vw;
+    margin: auto;
+    font-weight: bold;
+}
+
+.container h1{
+    color: goldenrod;
+    font-size: 2.5rem;
+}
+
+.container p,span{
+    font-size: 1.3rem;
+}
+
+.output-text{
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.buttons-area {
+    margin: 35px;
+    text-align: center;
+}
+
+.buttons-area button {
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    background-color: goldenrod;
+    margin: 15px;    
+}
+
+#start-btn{
+    display: inline;
+}
+
+#newcard-btn{
+    display: none;
+}
